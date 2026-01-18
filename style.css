@@ -2,20 +2,12 @@ h1 {
     text-align: center;
 }
 
+
 form {
     border: 2px solid green;
     padding: 15px;
-    width: 600px;
-    margin: 0 auto;
-}
-
-label {
-    display: inline-block;
-    width: 180px;
-}
-
-input {
-    display: inline-block;
+    width: 600px;      /* או כל רוחב שנראה לך */
+    margin: 0 auto;    /* זה מה שממרכז */
 }
 
 .green {
