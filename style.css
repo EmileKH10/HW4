@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+
+form {
+    border: 2px solid green;
+    padding: 15px;
+    width: 600px;      /* או כל רוחב שנראה לך */
+    margin: 0 auto;    /* זה מה שממרכז */
+}
+
+.green {
+    background-color: greenyellow;
+}

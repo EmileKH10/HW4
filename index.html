@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Admissions Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>College Admissions Calculator</h1>
+
+    <form id="admissionForm">
+
+        <label>Age:</label><br>
+        <input type="number" id="age"><br><br>
+
+        <fieldset>
+            <legend>Select from the below options:</legend>
+
+            <input type="radio" name="track" id="trackPsy" value="psy">
+            <label for="trackPsy">Psychometric and Bagrut</label>
+
+            <input type="radio" name="track" id="trackMechina" value="mechina">
+            <label for="trackMechina">Mechina and Bagrut</label>
+        </fieldset>
+
+        <br>
+
+        <label>Psychometric Grade:</label><br>
+        <input type="number" id="psychometric"><br><br>
+
+        <label>Bagrut Grade:</label><br>
+        <input type="number" id="bagrut"><br><br>
+
+        <label>Mechina Grade:</label><br>
+        <input type="number" id="mechina"><br><br>
+
+        <button type="button" id="validateBtn">validate</button>
+
+        <div id="msg"></div>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
